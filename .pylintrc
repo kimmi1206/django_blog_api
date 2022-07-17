@@ -11,4 +11,5 @@ disable=
 	; unused-argument
 	# ignore bare except
 	; bare-except
+  no-name-in-module,
 
