@@ -30,7 +30,7 @@ SECRET_KEY = getenv('DJ_SECRET_KEY')
 DEBUG = getenv("IS_DEVELOPMENT", True)  # pylint: disable=invalid-envvar-default
 
 ALLOWED_HOSTS = [
-    getenv("APP_HOST"),
+    getenv("APP_HOST", "127.0.0.1"),
 ]
 
 
