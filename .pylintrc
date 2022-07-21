@@ -12,4 +12,5 @@ disable=
 	# ignore bare except
 	; bare-except
   no-name-in-module,
+  invalid-envvar-default,
 
